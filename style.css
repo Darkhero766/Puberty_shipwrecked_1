@@ -1,6 +1,6 @@
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background: linear-gradient(to bottom right, #4F46E5, #4F46E5, #ec4899);
+    background: #f4f5f7;
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -13,7 +13,7 @@ body {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    background-color: rgb(0, 0, 0, 0.6);
+    background-color: #2f3e46;
     padding: 10px 20px;
     position: fixed;
     top: 0;
@@ -21,7 +21,7 @@ body {
 
 .navbar .logo {
     font-size: 1.5rem;
-    color: #ffffff;
+    color: #f4f5f7;
 }
 
 .nav-links {
@@ -31,8 +31,12 @@ body {
 }
 
 .nav-links a{
-    color: #ffffff;
+    color: #f4f5f7;
     text-decoration: none;
     font-size: 1rem;
     transition: color 0.3s;
+}
+
+.nav-links a:hover{
+    color: #a7bbc7;
 }
